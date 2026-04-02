@@ -1,0 +1,10 @@
+# Virtual environment
+venv/
+
+# Spark runtime files
+spark-warehouse/
+metastore_db/
+
+# Streaming generated data
+checkpoints/
+output/

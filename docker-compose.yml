@@ -36,7 +36,7 @@ services:
       KAFKA_TOPIC: order_events
       EVENT_INTERVAL_SEC: 0.5
     restart: unless-stopped
-  
+   
   consumer:
     build:
       context: ./consumer
