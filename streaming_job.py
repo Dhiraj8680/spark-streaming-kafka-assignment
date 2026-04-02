@@ -20,7 +20,8 @@ from pyspark.sql.types import (
 )
 
 
-# Environment setup 
+# Environment setup
+# Required only for local Windows Spark execution 
 
 os.environ["HADOOP_HOME"] = r"C:\hadoop"
 os.environ["hadoop.home.dir"] = r"C:\hadoop"
